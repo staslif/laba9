@@ -51,11 +51,7 @@ class Program
             CreditCardNumber = "1123211233211232",
             BankAccountNumber = "1661161616611661"
         };
-
-        // Заданный номер кредитной карты
         string targetCreditCardNumber = "1324576898798091";
-
-        // Выводим список покупателей, номер кредитной карты которых совпадает с заданным
         Console.WriteLine("Список покупателей с заданным номером кредитной карты:");
         foreach (Customer customer in customers)
         {
